@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+    text-decoration: none;
+}
+
+.header-info .content {
+    margin-left: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.header-info .content:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: '';
+    transform: translateY(-50%);
+    width: 1px;
+    height: 20px;
+    background-color: #ffffffad;
+}
+
+//.header-info .content a:after {
+//    display: block;
+//    content: '';
+//    width: inherit;
+//    border-bottom: solid 1px white;
+//    transform: scaleX(0);
+//    transition: transform 250ms ease-in-out;
+//}
+//
+//.header-info .content a:hover:after {
+//    transform: scaleX(1);
+//    transform-origin: left;
+//}
+
+.border-bottom-on-hover:after {
+    display: block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 1px white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.border-bottom-on-hover:hover:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.border-bottom-on-hover-dark:after {
+    display: block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 1px gray;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.border-bottom-on-hover-dark:hover:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.border-bottom-from-left {
+    @apply relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:dark:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:ease-in-out after:duration-200 after:origin-left
+}
+
+.scrolled {
+    @apply drop-shadow-xl;
+}
+
+//a:hover {
+//    @apply dark:hover:text-gray-100 hover:text-black
+//}
+
+//dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700
+//dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 dark:bg-clip-text dark:text-transparent
