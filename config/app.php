@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => 'Macro Construction And Engineering LTD.',
+    'name' => 'Macro Cons. and Eng. LTD.',
 
     /*
     |--------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+// Swiper js
+//:root {
+//    --swiper-navigation-size: 35px;
+//}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 35px !important;
+    display: none;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: calc(100% * 10.5 / 14);
+}
+
+
+@media screen and (max-width: 678px) {
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        display: none !important;
+    }
+
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        //top: calc(100% * 10.2 / 14);
+        display: none;
+    }
+}

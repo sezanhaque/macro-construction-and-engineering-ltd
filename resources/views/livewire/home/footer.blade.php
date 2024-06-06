@@ -7,7 +7,7 @@ new class extends Component {
 }; ?>
 
 <div>
-    <footer class="bg-white dark:bg-gray-900">
+    <footer class="relative bg-white dark:bg-gray-900 mt-60">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
@@ -16,8 +16,13 @@ new class extends Component {
                             <img src="{{ storage_url('images/logo.png') }}" class="h-10 mr-3" alt="Logo"/>
                         @endif
                         <span
-                            class="hidden md:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{{ config('app.name') }}</span>
+                            class="self-center text-sm sm:text-2xl font-semibold whitespace-nowrap dark:text-white">{{ config('app.name') }}</span>
                     </a>
+                    <div class="">
+                        <p class="mx-2 my-4 text-sm text-gray-900 uppercase dark:text-gray-400 font-medium">
+                            We provide engineering, management and specialist technical services <br> for public and private sector clients.
+                        </p>
+                    </div>
                     <address class="not-italic ml-2 mt-4 font-medium">
                         <p class="mb-3 text-sm text-gray-900 uppercase dark:text-white">
                             Address

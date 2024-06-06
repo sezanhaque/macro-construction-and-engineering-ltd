@@ -2,9 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+//@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+//@import '@fortawesome/fontawesome-free/css/regular.css';
+//@import '@fortawesome/fontawesome-free/css/solid.css';
+//@import '@fortawesome/fontawesome-free/css/brands.css';
+
+@import "hero-slider";
+@import 'swiper/css/bundle';
+@import "swiper-js-custom-style";
+
+// for smooth transition effect in theme switch
+body * {
+    @apply transition-colors duration-200;
+}
+
 a {
     text-decoration: none;
 }
+
+/*
+    Scrollbar customization
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(136, 136, 136, 0.36);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(72, 72, 72, 0.55);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*
+    Scrollbar customization
+*/
 
 .header-info .content {
     margin-left: 30px;
@@ -55,9 +99,13 @@ a {
     display: block;
     content: '';
     width: inherit;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px theme('colors.gray.400');
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
+}
+
+.border-bottom-on-hover-dark {
+    @apply dark:text-white #{!important};
 }
 
 .border-bottom-on-hover-dark:hover:after {
@@ -79,3 +127,4 @@ a {
 
 //dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700
 //dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 dark:bg-clip-text dark:text-transparent
+

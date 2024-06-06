@@ -35,10 +35,10 @@ new class extends Component {
                 <ul class="flex flex-col md:items-center items-start mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
                     <li>
                         <a href="#"
-                           class="border-bottom-from-left block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                           class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
                            aria-current="page">Home</a>
                     </li>
-                    <li class="border-bottom-from-left">
+                    <li class="border-bottom-on-hover-dark">
                         <button id="mega-menu-full-cta-image-button"
                                 data-collapse-toggle="mega-menu-full-image-dropdown"
                                 class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">
@@ -52,16 +52,15 @@ new class extends Component {
                     </li>
                     <li>
                         <a href="#"
-                           class="border-bottom-from-left py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                           class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
                     </li>
                     <li>
                         <a href="#"
-                           class="border-bottom-from-left py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                           class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
                     </li>
-                    <li>
+                    <li class="w-full">
                         <a href="#"
-                           class="border-bottom-from-left py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Contact
-                            Us</a>
+                           class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
                     </li>
                     <li>
                         <button id="theme-toggle" type="button"
@@ -86,45 +85,45 @@ new class extends Component {
             <div
                 class="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
                 <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Online Stores
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Segmentation
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Marketing CRM
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Online Stores
                         </a>
                     </li>
                 </ul>
                 <ul class="mb-4 space-y-4 md:mb-0">
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Our Blog
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Terms & Conditions
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             License
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="hover:underline hover:text-blue-600 ">
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
                             Resources
                         </a>
                     </li>
@@ -151,7 +150,7 @@ new class extends Component {
     @push('scripts')
 
         <script>
-            console.log('nav-bar');
+            // console.log('nav-bar');
         </script>
 
     @endpush

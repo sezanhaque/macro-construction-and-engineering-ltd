@@ -16,101 +16,47 @@
     <!-- Scripts -->
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
     @stack('styles')
-    @stack('scripts')
     <livewire:styles/>
 </head>
-<body class="font-sans antialiased">
-<div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-    {{--    <livewire:layout.navigation />  --}}
-    <livewire:home.header-top/>
-    <livewire:home.nav-bar/>
+<body class="font-sans antialiased bg-gray-100 dark:bg-gray-900">
+{{--<div class="min-h-screen bg-gray-100 dark:bg-gray-900">--}}
+{{--</div>--}}
+{{--    <livewire:layout.navigation />  --}}
+<livewire:home.header-top/>
+<livewire:home.nav-bar/>
 
-    <!-- Page Heading -->
-    @if (isset($header))
-        <header class="bg-white dark:bg-gray-800 shadow">
-            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                {{ $header }}
-            </div>
-        </header>
-    @endif
+<!-- Page Heading -->
+@if (isset($header))
+    <header class="bg-white dark:bg-gray-800 shadow">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            {{ $header }}
+        </div>
+    </header>
+@endif
 
-    <!-- Page Content -->
-    <main>
-        {{ $slot }}
-    </main>
+<!-- Page Content -->
+<main>
+    {{ $slot }}
+</main>
 
-</div>
+{{--  Bottom navigation button  --}}
+<button x-cloak x-data="{scroll : false}"
+        @scroll.window="document.documentElement.scrollTop > 20 ? scroll = true : scroll = false" x-show="scroll"
+        @click="window.scrollTo({top: 0, behavior: 'smooth'})" type="button" data-mdb-ripple="true"
+        data-mdb-ripple-color="light"
+        class="fixed inline-block p-3 bottom-24 text-xs font-medium leading-tight text-white uppercase transition duration-150 ease-in-out bg-blue-600 rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg right-5"
+        id="btn-back-to-top" x-transition.opacity>
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+              d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"/>
+    </svg>
+</button>
+{{--  Bottom navigation button  --}}
 <livewire:home.footer/>
 <livewire:scripts/>
+@stack('scripts')
 <script type="text/javascript">
-
-    // JavaScript to handle scroll event and toggle header visibility
-    let lastScroll = 0;
-
-    window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-
-        if (currentScroll > lastScroll) {
-            document.querySelector('header').style.top = '-100px';
-            document.querySelector('nav').style.top = '0px';
-        } else {
-            document.querySelector('header').style.top = '0';
-            if (window.innerWidth > 1024) {
-                document.querySelector('nav').style.top = '40px';
-            }
-            else {
-                document.querySelector('nav').style.top = '0px';
-            }
-        }
-
-        lastScroll = currentScroll <= 0 ? 0 : currentScroll;
-    });
-    // JavaScript to handle scroll event and toggle header visibility
-
-
-    // Light / Dark Theme Switcher
-    var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
-    var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
-
-    // Change the icons inside the button based on previous settings
-    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        themeToggleLightIcon.classList.remove('hidden');
-    } else {
-        themeToggleDarkIcon.classList.remove('hidden');
-    }
-
-    var themeToggleBtn = document.getElementById('theme-toggle');
-
-    themeToggleBtn.addEventListener('click', function () {
-        console.log("script");
-
-        // toggle icons inside button
-        themeToggleDarkIcon.classList.toggle('hidden');
-        themeToggleLightIcon.classList.toggle('hidden');
-
-        // if set via local storage previously
-        if (localStorage.getItem('color-theme')) {
-            if (localStorage.getItem('color-theme') === 'light') {
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('color-theme', 'dark');
-            } else {
-                document.documentElement.classList.remove('dark');
-                localStorage.setItem('color-theme', 'light');
-            }
-
-            // if NOT set via local storage previously
-        } else {
-            if (document.documentElement.classList.contains('dark')) {
-                document.documentElement.classList.remove('dark');
-                localStorage.setItem('color-theme', 'light');
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('color-theme', 'dark');
-            }
-        }
-
-    });
-    // Light / Dark Theme Switcher
 </script>
 </body>
 </html>
