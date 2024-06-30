@@ -103,7 +103,7 @@
 
 
 <div
-    class="relative flex flex-col mx-3 md:mx-40 my-20 bg-white drop-shadow-xl border-gray-200 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 rounded-lg">
+    class="relative flex flex-col mx-3 md:mx-20 my-20 bg-white drop-shadow-xl border-gray-200 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 rounded-lg">
     <div class="container flex flex-col items-center gap-8 mx-auto my-16">
         <section class="grid gap-12 md:grid-cols-3 md:gap-10 mx-6 lg:mx-4">
 

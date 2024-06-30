@@ -12,7 +12,7 @@ new class extends Component {
 <div>
     <nav class="bg-white top-0 lg:top-10 drop-shadow-xl border-gray-200 w-full dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 fixed top-0 z-20 transition-all duration-300">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-            <a href="#" class="flex items-center">
+            <a href="{{ route('home') }}" class="flex items-center">
                 @if(storage_exists('images/logo.png'))
                     <img src="{{ storage_url('images/logo.png') }}" class="h-10 mr-3" alt="Logo"/>
                 @endif
@@ -34,7 +34,7 @@ new class extends Component {
                  class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col md:items-center items-start mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
                     <li>
-                        <a href="#"
+                        <a href="{{ route('home') }}"
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
                            aria-current="page">Home</a>
                     </li>
@@ -59,7 +59,7 @@ new class extends Component {
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
                     </li>
                     <li class="w-full">
-                        <a href="#"
+                        <a href="{{ route('contact-us') }}"
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
                     </li>
                     <li>

@@ -7,11 +7,11 @@ new class extends Component {
 }; ?>
 
 <div>
-    <footer class="relative bg-white dark:bg-gray-900 mt-60">
+    <footer class="relative bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
-                    <a href="#" class="flex items-center">
+                    <a href="{{ route('home') }}" class="flex items-center">
                         @if(storage_exists('images/logo.png'))
                             <img src="{{ storage_url('images/logo.png') }}" class="h-10 mr-3" alt="Logo"/>
                         @endif
@@ -44,7 +44,7 @@ new class extends Component {
                                     d="M12 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM7.5 17.5h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2ZM12 13H2V4h10v9Z"/>
                             </svg>
                             Office:
-                            <a class="ml-1 border-bottom-on-hover-dark" href="tel:+8801780-942401">+8801780-942401</a>
+                            <a class="ml-1 border-bottom-on-hover-dark" href="{{ config('app.mobile-href') }}">{{ config('app.mobile') }}</a>
                         </div>
                         <div class="flex text-gray-500 dark:text-gray-400 ">
                             <svg class="w-4 h-4 self-center mr-2" aria-hidden="true"
@@ -55,7 +55,7 @@ new class extends Component {
                                     d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
                             </svg>
                             Email:
-                            <a class="ml-1 border-bottom-on-hover-dark" href="mailto:macroengineering007@gmail.com">macroengineering007@gmail.com</a>
+                            <a class="ml-1 border-bottom-on-hover-dark" href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a>
                         </div>
                     </address>
                 </div>
@@ -99,7 +99,7 @@ new class extends Component {
             <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               {{ __('Copyright') }} &copy; {{ date('Y') }}
-              <a href="#" class="hover:underline">
+              <a href="{{ route('home') }}" class="hover:underline">
                   {{ config('app.name') }}™.
               </a>
               All Rights Reserved.

@@ -2,7 +2,7 @@
 {{--    class="relative flex-col justify-center overflow-hidden bg-stone-100 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 py-20 my-20 mx-8 rounded-lg">--}}
 {{--</div>--}}
 
-<div class="mx-3 md:mx-40 my-20">
+<div class="mx-3 md:mx-20 my-20">
     <div class="grid grid-cols-1 md:grid-cols-3 group bg-white shadow-lg shadow-slate-400 border rounded-t-lg">
 
 

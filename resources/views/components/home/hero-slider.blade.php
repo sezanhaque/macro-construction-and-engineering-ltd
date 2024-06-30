@@ -3,12 +3,13 @@
     <!-- list item -->
     <div class="list">
         <div class="item">
-            <img src="{{ storage_url('images/airport.jpg') }}" alt="airport-1">
+            <img src="{{ storage_url('images/airport.jpg') }}"
+                 class="blur-sm" alt="airport-1">
             <div class="content">
                 <div class="author">LUNDEV</div>
                 <div class="title">DESIGN SLIDER</div>
                 <div class="topic">AIRPORT</div>
-                <div class="des">
+                <div class="des p-5 mb-5 bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))] rounded-md">
                     <!-- lorem 50 -->
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
                     placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi
@@ -37,12 +38,12 @@
             </div>
         </div>
         <div class="item">
-            <img src="{{ storage_url('images/airport-2.jpg') }}">
+            <img class="blur-sm" src="{{ storage_url('images/airport-2.jpg') }}">
             <div class="content">
                 <div class="author">LUNDEV</div>
                 <div class="title">DESIGN SLIDER</div>
                 <div class="topic">AIRPORT</div>
-                <div class="des">
+                <div class="des p-5 bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))] rounded-md">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
                     placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi
                     ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus
@@ -70,12 +71,12 @@
             </div>
         </div>
         <div class="item">
-            <img src="{{ storage_url('images/airport-3.jpg') }}">
+            <img class="blur-sm" src="{{ storage_url('images/airport-3.jpg') }}">
             <div class="content">
                 <div class="author">LUNDEV</div>
                 <div class="title">DESIGN SLIDER</div>
                 <div class="topic">AIRPORT</div>
-                <div class="des">
+                <div class="des p-5 bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))] rounded-md">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
                     placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi
                     ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus
@@ -103,12 +104,12 @@
             </div>
         </div>
         <div class="item">
-            <img src="{{ storage_url('images/airport-4.jpg') }}">
+            <img class="blur-sm" src="{{ storage_url('images/airport-4.jpg') }}">
             <div class="content">
                 <div class="author">LUNDEV</div>
                 <div class="title">DESIGN SLIDER</div>
                 <div class="topic">AIRPORT</div>
-                <div class="des">
+                <div class="des p-5 bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))] rounded-md">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
                     placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi
                     ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus
@@ -146,8 +147,8 @@
                     <div class="title">
                         Name Slider
                     </div>
-                    <div class="description">
-                        Description
+                    <div class="des">
+                        des
                     </div>
                 </div>
             </div>
@@ -157,8 +158,8 @@
                     <div class="title">
                         Name Slider
                     </div>
-                    <div class="description">
-                        Description
+                    <div class="des">
+                        des
                     </div>
                 </div>
             </div>
@@ -168,8 +169,8 @@
                     <div class="title">
                         Name Slider
                     </div>
-                    <div class="description">
-                        Description
+                    <div class="des">
+                        des
                     </div>
                 </div>
             </div>
@@ -179,8 +180,8 @@
                     <div class="title">
                         Name Slider
                     </div>
-                    <div class="description">
-                        Description
+                    <div class="des">
+                        des
                     </div>
                 </div>
             </div>

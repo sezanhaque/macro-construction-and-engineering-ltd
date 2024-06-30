@@ -1,5 +1,5 @@
 <!-- component -->
-<section class="bg-stone-100 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 py-20 mx-3 md:mx-40 my-20 rounded-lg">
+<section class="bg-stone-100 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 py-20 mx-3 md:mx-20 my-20 rounded-lg">
     <div class="grid grid-cols-1 sm:grid-cols-2  gap-10 mx-auto items-center max-w-6xl">
         <div class="px-4 md:mr-6">
             <h3 class="text-slate-900 dark:text-gray-300 text-4xl pr-6 sm:leading-snug tracking-tight font-bold text-left">

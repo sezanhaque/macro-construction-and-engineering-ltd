@@ -1,5 +1,5 @@
 <div
-    class="relative flex-col justify-center overflow-hidden bg-stone-100 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 py-20 mx-3 md:mx-40 my-20 rounded-lg">
+    class="relative flex-col justify-center overflow-hidden bg-stone-100 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 py-20 mx-3 md:mx-20 my-20 rounded-lg">
     <div class="w-full items-center mx-auto max-w-screen-lg">
         <div class="group grid w-full grid-cols-1 md:grid-cols-2">
             <div

@@ -21,9 +21,11 @@
     {{--    Swiper js slider--}}
 
     <x-home.company-experience></x-home.company-experience>
-    <x-home.clients-logo></x-home.clients-logo>
+    <x-home.partner></x-home.partner>
     <x-home.about-us></x-home.about-us>
     <x-home.features></x-home.features>
+    <x-home.our-clients></x-home.our-clients>
+    <x-home.get-a-quote></x-home.get-a-quote>
 
 {{--    <x-home.airport-hero></x-home.airport-hero>--}}
 

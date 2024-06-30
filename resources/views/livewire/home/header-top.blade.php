@@ -53,7 +53,7 @@ use function Livewire\Volt\{state};
                             <path
                                 d="M12 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM7.5 17.5h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2ZM12 13H2V4h10v9Z"/>
                         </svg>
-                        <a class="border-bottom-on-hover" href="tel:+8801780-942401">+8801780-942401</a>
+                        <a class="border-bottom-on-hover" href="{{ config('app.mobile-href') }}">{{ config('app.mobile') }}</a>
                     </div>
                     <div class="content flex justify-center items-center text-gray-100">
                         <svg class="w-4 h-4 text-gray-100 dark:text-white mr-2" aria-hidden="true"
@@ -63,7 +63,7 @@ use function Livewire\Volt\{state};
                             <path
                                 d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
                         </svg>
-                        <a class="border-bottom-on-hover" href="mailto:macroengineering007@gmail.com">macroengineering007@gmail.com</a>
+                        <a class="border-bottom-on-hover" href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a>
                     </div>
                 </div>
             </div>
