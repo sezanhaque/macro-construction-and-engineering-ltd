@@ -2,6 +2,7 @@
 
     @section('title', 'Contact Us')
 
-    <x-home.get-a-quote></x-home.get-a-quote>
+{{--    <x-home.get-a-quote></x-home.get-a-quote>--}}
+    <livewire:contact-form/>
 
 </x-app-layout>
