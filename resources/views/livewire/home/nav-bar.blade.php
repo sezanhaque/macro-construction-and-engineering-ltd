@@ -55,7 +55,7 @@ new class extends Component {
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="{{ route('service') }}"
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
                     </li>
                     <li class="w-full">

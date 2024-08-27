@@ -16,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 //Route::view('/', 'welcome');
 Route::view('/', 'home')->name('home');
-//Route::get('/contact-us', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact-us');
-Route::get('/contact-us', ContactForm::class)->name('contact-us');
+
+Route::get('/contact-us', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact-us');
+//Route::get('/contact-us', ContactForm::class)->name('contact-us');
+
+Route::get('/service', fn() => view('service'))->name('service');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
@@ -27,4 +30,4 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

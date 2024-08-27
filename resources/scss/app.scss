@@ -16,6 +16,12 @@ body * {
     @apply transition-colors duration-200;
 }
 
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
 a {
     text-decoration: none;
 }
