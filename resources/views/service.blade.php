@@ -22,7 +22,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <!-- Electrical Engineering -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?electrical"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Electrical Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Electrical Engineering</h3>
@@ -34,7 +34,7 @@
 
             <!-- Civil Engineering -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?civil"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Civil Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Civil Engineering</h3>
@@ -46,7 +46,7 @@
 
             <!-- Mechanical Engineering -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?mechanical"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Mechanical Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Mechanical Engineering</h3>
@@ -58,7 +58,7 @@
 
             <!-- Software Engineering -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?software"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Software Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Software Engineering</h3>
@@ -70,7 +70,7 @@
 
             <!-- IT Development and Security System -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?security"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="IT Development and Security System">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">IT Development and Security System</h3>
@@ -82,7 +82,7 @@
 
             <!-- Fire Safety Engineering -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?fire-safety"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Fire Safety Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Fire Safety Engineering</h3>
@@ -94,7 +94,7 @@
 
             <!-- Piping Network -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?piping"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Piping Network">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Piping Network</h3>
@@ -106,7 +106,7 @@
 
             <!-- Fire Detection & Protection, HVAC, Water and Waste Treatment -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?hvac"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Fire Detection & Protection, HVAC, Water and Waste Treatment">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Fire Detection & Protection, HVAC, Water and Waste
@@ -119,7 +119,7 @@
 
             <!-- Energy Generation, Power Distribution -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/800x600?energy"
+                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Energy Generation, Power Distribution">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Energy Generation, Power Distribution</h3>
@@ -195,31 +195,5 @@
                 Us</a>
         </div>
     </section>
-
-
-    @push('styles')
-
-        <style>
-            .hero {
-                background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('https://picsum.photos/1280/800') center/cover no-repeat;
-            }
-
-            .card-hover:hover {
-                transform: translateY(-10px);
-                box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-            }
-
-            .transition-all {
-                transition: all 0.3s ease-in-out;
-            }
-
-            .gradient-text {
-                background: linear-gradient(90deg, #667eea, #764ba2);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-        </style>
-    @endpush
-
 
 </x-app-layout>

@@ -22,6 +22,8 @@ Route::get('/contact-us', [\App\Http\Controllers\ContactController::class, 'inde
 
 Route::get('/service', fn() => view('service'))->name('service');
 
+Route::get('/projects', fn() => view('projects'))->name('projects');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');

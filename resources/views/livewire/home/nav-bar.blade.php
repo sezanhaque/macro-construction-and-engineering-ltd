@@ -10,7 +10,8 @@ new class extends Component {
 ?>
 
 <div>
-    <nav class="bg-white top-0 lg:top-10 drop-shadow-xl border-gray-200 w-full dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 fixed top-0 z-20 transition-all duration-300">
+    <nav
+        class="bg-white top-0 lg:top-10 drop-shadow-xl border-gray-200 w-full dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 fixed top-0 z-20 transition-all duration-300">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
             <a href="{{ route('home') }}" class="flex items-center">
                 @if(storage_exists('images/logo.png'))
@@ -51,7 +52,7 @@ new class extends Component {
                         </button>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="{{ route('projects') }}"
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
                     </li>
                     <li>
@@ -60,7 +61,8 @@ new class extends Component {
                     </li>
                     <li class="w-full">
                         <a href="{{ route('contact-us') }}"
-                           class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
+                           class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Contact
+                            Us</a>
                     </li>
                     <li>
                         <button id="theme-toggle" type="button"
