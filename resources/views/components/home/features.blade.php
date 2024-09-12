@@ -95,11 +95,11 @@
     </div>
 
     <div
-        class="w-full bg-indigo-600 shadow-2xl dark:shadow-lg dark:shadow-indigo-500/40 py-10 px-20 flex justify-between items-center rounded-b-lg">
+        class="w-full bg-indigo-600 shadow-2xl dark:shadow-lg dark:shadow-indigo-500/40 py-10 px-20 grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto justify-items-center items-center rounded-b-lg">
         <p class=" text-white"><span class="text-4xl font-medium">Still Confused ?</span> <br> <span
                 class="text-lg">Book For an Appointment Today ! </span></p>
         <a href="tel:+8801780-942401"
-           class="flex group px-5 py-3 font-medium text-slate-700 shadow-xl hover:bg-white duration-150 bg-yellow-300 rounded-lg">
+           class="flex group w-fit px-5 py-3 font-medium text-slate-700 shadow-xl hover:bg-white duration-150 bg-yellow-300 rounded-lg">
             Call Us Now
             <svg class="w-5 ml-3 group-hover:animate-shake" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

@@ -23,46 +23,200 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
                 <!-- Project Card -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x300" alt="Project 1">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold text-gray-800">Project Title 1</h3>
-                        <p class="text-gray-600 mt-4">A brief description of the project goes here, highlighting the key
-                            points and features.</p>
-                        <a href="#"
-                           class="relative inline-block mt-4 before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:text-white text-indigo-600 dark:text-indigo-600 hover:text-slate-100 before:hover:bg-slate-800">
-                            <span class="relative skew-y-3">View Details</span>
-                        </a>
-                    </div>
-                </div>
 
-                <!-- Project Card -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x300" alt="Project 2">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold text-gray-800">Project Title 2</h3>
-                        <p class="text-gray-600 mt-4">A brief description of the project goes here, highlighting the key
-                            points and features.</p>
-                        <a href="#"
-                           class="relative inline-block mt-4 before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:text-white text-indigo-600 dark:text-indigo-600 hover:text-slate-100 before:hover:bg-slate-800">
-                            <span class="relative skew-y-3">View Details</span>
-                        </a>
-                    </div>
-                </div>
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-saidpur-airport.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Security Pass System Work At Saidpur Airport Under Civil Aviation Authority Bangladesh</p>
+                    </figcaption>
+                </figure>
 
-                <!-- Project Card -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x300" alt="Project 3">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold text-gray-800">Project Title 3</h3>
-                        <p class="text-gray-600 mt-4">A brief description of the project goes here, highlighting the key
-                            points and features.</p>
-                        <a href="#"
-                           class="relative inline-block mt-4 before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:text-white text-indigo-600 dark:text-indigo-600 hover:text-slate-100 before:hover:bg-slate-800">
-                            <span class="relative skew-y-3">View Details</span>
-                        </a>
-                    </div>
-                </div>
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-ctg-airport.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Security Pass System Work At Shah Amanat International Airport Under Civil Aviation Authority Bangladesh
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-jassore-airport.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Security Pass System Work At Jassore Airport Under Civil Aviation Authority Bangladesh
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-coxs-bazar-airport.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Security Pass System Work At Cox's Bazar Airport Under Civil Aviation Authority Bangladesh
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/coxs-bazar-resort-project.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Cox's Bazar Resort Project Consultancy</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Monument-Project-BAF.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Monument Project Consultancy  (Bangladesh Air Force)
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Office-Interior-Project-Consultancy-2.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Office Interior Project Consultancy
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Apartment-Interior-Project-Consultancy-2.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Apartment Interior Project Consultancy
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Dhaka-Resort-Project-Consultancy.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Dhaka Resort Project Consultancy
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Jamuna-Railway-Project.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Wire Mash Design, Supply at jamuna railway bridge construction project Under Ministry of Railways
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Full-Floor-Epoxy-Project.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Full Floor Epoxy Project (Client -ZHAOFENG GELATIN LTD.)
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Renovation-and-Development-Work-BSMMU.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Renovation and Development Work Under BSMMU
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Civil-material-BSMMU.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Civil Material Supply and Installation at Super Specialized Hospital Under BSMMU, Dhaka.
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Civil-material-Matarbari.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Civil Material  Supply at Matarbari 1200 mw Coal power Plant  Project At Cox's Bazar
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Maintenance-Supply-Acorn.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Maintenance  Supply at Acorn Infrastructure Services At Chittagong
+                        </p>
+                    </figcaption>
+                </figure>
+
+
+
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Building-Project-Uttara.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Seven Storied Building Project Design and Execution At Uttara, Dhaka
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Renovation-CAAB.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Full Renovation Work and Interior Development At Dhaka Airport Under Civil Aviation Authority Bangladesh
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Civil-material-Wusdom-Hotel.png") }}" alt="">
+                    </a>
+                    <figcaption class="mt-4 text-lg text-gray-600">
+                        <p>Civil Material  Supply at  Wisdom 5-Star Hotel , Sylhet
+                        </p>
+                    </figcaption>
+                </figure>
+
+
+                {{--                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">--}}
+{{--                    <img class="w-full h-48 object-cover" src="{{ asset("/images/completed-projects/coxs-bazar-resort-project.png") }}" alt="Project 1">--}}
+{{--                    <div class="p-6">--}}
+{{--                        <h3 class="text-2xl font-semibold text-gray-800">Coxs Bazar Resort Project Consultancy</h3>--}}
+{{--                        <p class="text-gray-600 mt-4">Coxs Bazar Resort Project Consultancy</p>--}}
+{{--                        <a href="#"--}}
+{{--                           class="relative inline-block mt-4 before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:text-white text-indigo-600 dark:text-indigo-600 hover:text-slate-100 before:hover:bg-slate-800">--}}
+{{--                            <span class="relative skew-y-3">View Details</span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
