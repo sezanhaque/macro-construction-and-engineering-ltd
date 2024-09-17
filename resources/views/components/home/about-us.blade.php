@@ -15,7 +15,7 @@
                         </a>
                     </h2>
                 </div>
-                <a class="font-bold text-sm flex my-4 md:mb-8 items-center gap-2 hover:translate-x-1 duration-150"
+                <a class="font-bold text-sm flex my-4 md:mb-8 items-center gap-2 transition-all hover:translate-x-1"
                    href="">
                     <span class="dark:text-gray-400">MORE ABOUT US</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"

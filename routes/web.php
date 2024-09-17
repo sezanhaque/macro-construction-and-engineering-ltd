@@ -20,7 +20,7 @@ Route::view('/', 'home')->name('home');
 Route::get('/contact-us', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact-us');
 //Route::get('/contact-us', ContactForm::class)->name('contact-us');
 
-Route::get('/service', fn() => view('service'))->name('service');
+Route::get('/services', fn() => view('service'))->name('services');
 
 Route::get('/projects', fn() => view('projects'))->name('projects');
 

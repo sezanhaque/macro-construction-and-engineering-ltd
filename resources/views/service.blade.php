@@ -21,7 +21,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <!-- Electrical Engineering -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+            <div id="electrical-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
                 <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Electrical Engineering">
                 <div class="p-8">
@@ -33,7 +33,7 @@
             </div>
 
             <!-- Civil Engineering -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+            <div id="civil-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
                 <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Civil Engineering">
                 <div class="p-8">
@@ -45,7 +45,7 @@
             </div>
 
             <!-- Mechanical Engineering -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+            <div id="mechanical-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
                 <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Mechanical Engineering">
                 <div class="p-8">
@@ -57,7 +57,7 @@
             </div>
 
             <!-- Software Engineering -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+            <div id="software-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
                 <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Software Engineering">
                 <div class="p-8">
@@ -81,7 +81,7 @@
             </div>
 
             <!-- Fire Safety Engineering -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+            <div id="fire-safety-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
                 <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
                      alt="Fire Safety Engineering">
                 <div class="p-8">

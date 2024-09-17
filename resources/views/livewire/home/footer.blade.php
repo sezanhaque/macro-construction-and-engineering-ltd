@@ -20,7 +20,8 @@ new class extends Component {
                     </a>
                     <div class="">
                         <p class="mx-2 my-4 text-sm text-gray-900 uppercase dark:text-gray-400 font-medium">
-                            We provide engineering, management and specialist technical services <br> for public and private sector clients.
+                            We provide engineering, management and specialist technical services <br> for public and
+                            private sector clients.
                         </p>
                     </div>
                     <address class="not-italic ml-2 mt-4 font-medium">
@@ -44,7 +45,8 @@ new class extends Component {
                                     d="M12 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM7.5 17.5h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2ZM12 13H2V4h10v9Z"/>
                             </svg>
                             Office:
-                            <a class="ml-1 border-bottom-on-hover-dark" href="{{ config('app.mobile-href') }}">{{ config('app.mobile') }}</a>
+                            <a class="ml-1 border-bottom-on-hover-dark"
+                               href="{{ config('app.mobile-href') }}">{{ config('app.mobile') }}</a>
                         </div>
                         <div class="flex text-gray-500 dark:text-gray-400 ">
                             <svg class="w-4 h-4 self-center mr-2" aria-hidden="true"
@@ -55,30 +57,49 @@ new class extends Component {
                                     d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
                             </svg>
                             Email:
-                            <a class="ml-1 border-bottom-on-hover-dark" href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a>
+                            <a class="ml-1 border-bottom-on-hover-dark"
+                               href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a>
                         </div>
                     </address>
                 </div>
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 p-2.5 sm:p-2">
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="https://flowbite.com/" class="hover:underline">About Us</a>
+                                <a href="#" class="hover:underline">About Us</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Our History</a>
                             </li>
                             <li>
-                                <a href="https://tailwindcss.com/" class="hover:underline">Our History</a>
+                                <a href="{{ route('contact-us') }}" class="hover:underline">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Projects</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                            <a href="{{ route('services') }}">Services</a>
+                        </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                                <a href="{{ route('services') . '/#electrical-engineering'}}" class="hover:underline ">Electrical
+                                    Engineering</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="{{ route('services') . '/#civil-engineering'}}" class="hover:underline">Civil
+                                    Engineering</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="{{ route('services') . '/#mechanical-engineering'}}" class="hover:underline">Mechanical
+                                    Engineering</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="{{ route('services') . '/#software-engineering'}}" class="hover:underline">Software
+                                    Engineering</a>
                             </li>
                             <li>
-                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                                <a href="{{ route('services') . '/#fire-safety-engineering'}}" class="hover:underline">Fire Safety Engineering</a>
                             </li>
                         </ul>
                     </div>

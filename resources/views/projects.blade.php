@@ -24,46 +24,46 @@
 
                 <!-- Project Card -->
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-saidpur-airport.png") }}" alt="">
                     </a>
                     <figcaption class="mt-4 text-lg text-gray-600">
-                        <p>Security Pass System Work At Saidpur Airport Under Civil Aviation Authority Bangladesh</p>
+                        <p>Security Pass System Works At Saidpur Airport Under Civil Aviation Authority Bangladesh</p>
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-ctg-airport.png") }}" alt="">
                     </a>
                     <figcaption class="mt-4 text-lg text-gray-600">
-                        <p>Security Pass System Work At Shah Amanat International Airport Under Civil Aviation Authority Bangladesh
+                        <p>Security Pass System Works At Shah Amanat International Airport Under Civil Aviation Authority Bangladesh
                         </p>
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-jassore-airport.png") }}" alt="">
                     </a>
                     <figcaption class="mt-4 text-lg text-gray-600">
-                        <p>Security Pass System Work At Jassore Airport Under Civil Aviation Authority Bangladesh
+                        <p>Security Pass System Works At Jassore Airport Under Civil Aviation Authority Bangladesh
                         </p>
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/security-pass-coxs-bazar-airport.png") }}" alt="">
                     </a>
                     <figcaption class="mt-4 text-lg text-gray-600">
-                        <p>Security Pass System Work At Cox's Bazar Airport Under Civil Aviation Authority Bangladesh
+                        <p>Security Pass System Works At Cox's Bazar Airport Under Civil Aviation Authority Bangladesh
                         </p>
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/coxs-bazar-resort-project.png") }}" alt="">
                     </a>
@@ -72,7 +72,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Monument-Project-BAF.png") }}" alt="">
                     </a>
@@ -82,7 +82,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Office-Interior-Project-Consultancy-2.png") }}" alt="">
                     </a>
@@ -92,7 +92,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Apartment-Interior-Project-Consultancy-2.png") }}" alt="">
                     </a>
@@ -102,7 +102,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Dhaka-Resort-Project-Consultancy.png") }}" alt="">
                     </a>
@@ -112,7 +112,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Jamuna-Railway-Project.png") }}" alt="">
                     </a>
@@ -122,7 +122,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Full-Floor-Epoxy-Project.png") }}" alt="">
                     </a>
@@ -132,17 +132,17 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Renovation-and-Development-Work-BSMMU.png") }}" alt="">
                     </a>
                     <figcaption class="mt-4 text-lg text-gray-600">
-                        <p>Renovation and Development Work Under BSMMU
+                        <p>Renovation and Development Works Under BSMMU
                         </p>
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Civil-material-BSMMU.png") }}" alt="">
                     </a>
@@ -152,7 +152,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Civil-material-Matarbari.png") }}" alt="">
                     </a>
@@ -162,7 +162,7 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Maintenance-Supply-Acorn.png") }}" alt="">
                     </a>
@@ -175,7 +175,7 @@
 
 
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Building-Project-Uttara.png") }}" alt="">
                     </a>
@@ -185,17 +185,17 @@
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Renovation-CAAB.png") }}" alt="">
                     </a>
                     <figcaption class="mt-4 text-lg text-gray-600">
-                        <p>Full Renovation Work and Interior Development At Dhaka Airport Under Civil Aviation Authority Bangladesh
+                        <p>Full Renovation Works and Interior Development At Dhaka Airport Under Civil Aviation Authority Bangladesh
                         </p>
                     </figcaption>
                 </figure>
 
-                <figure class="relative max-w-md transition-all card-hover duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                <figure class="relative max-w-md transition-all duration-300 hover:translate-y-[-10px] cursor-pointer filter grayscale hover:grayscale-0">
                     <a href="#">
                         <img class="rounded-lg w-full h-48" src="{{ asset("/images/completed-projects/Civil-material-Wusdom-Hotel.png") }}" alt="">
                     </a>

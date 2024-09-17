@@ -56,7 +56,7 @@ new class extends Component {
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
                     </li>
                     <li>
-                        <a href="{{ route('service') }}"
+                        <a href="{{ route('services') }}"
                            class="border-bottom-on-hover-dark block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
                     </li>
                     <li class="w-full">
@@ -89,22 +89,22 @@ new class extends Component {
                 <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
-                            Online Stores
+                            About Us
                         </a>
                     </li>
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
-                            Segmentation
+                            Our Clients
                         </a>
                     </li>
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
-                            Marketing CRM
+                            Our Team
                         </a>
                     </li>
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
-                            Online Stores
+                            Our Process
                         </a>
                     </li>
                 </ul>
@@ -112,6 +112,11 @@ new class extends Component {
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
                             Our Blog
+                        </a>
+                    </li>
+                    <li class="flex">
+                        <a href="#" class="border-bottom-on-hover-dark">
+                            Testimonials
                         </a>
                     </li>
                     <li class="flex">
@@ -124,17 +129,11 @@ new class extends Component {
                             License
                         </a>
                     </li>
-                    <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            Resources
-                        </a>
-                    </li>
                 </ul>
-                <a href="#"
+                <a href="{{ route("contact-us") }}"
                    class="p-8 text-left bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light dark:hover:bg-blend-darken"
-                   style="background-image: url(https://flowbite.com/docs/images/dashboard-overview.png)">
-                    <p class="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">Preview the new
-                        Flowbite dashboard navigation.</p>
+                   style="background-image: url({{ asset('/images/dashboard-overview.png') }})">
+                    <p class="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">Stay Connected with us.</p>
                     <button type="button"
                             class="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Get started
