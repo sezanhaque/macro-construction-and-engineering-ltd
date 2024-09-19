@@ -24,6 +24,8 @@ Route::get('/services', fn() => view('service'))->name('services');
 
 Route::get('/projects', fn() => view('projects'))->name('projects');
 
+Route::get("/about-us", fn () => view('about-us'))->name('about-us');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');

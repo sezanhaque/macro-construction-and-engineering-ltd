@@ -67,13 +67,13 @@ new class extends Component {
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">About Us</a>
+                                <a href="#" class=" border-bottom-on-hover-dark">About Us</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Our History</a>
+                                <a href="#" class=" border-bottom-on-hover-dark">Our History</a>
                             </li>
                             <li>
-                                <a href="{{ route('contact-us') }}" class="hover:underline">Contact Us</a>
+                                <a href="{{ route('contact-us') }}" class=" border-bottom-on-hover-dark">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -83,23 +83,23 @@ new class extends Component {
                         </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="{{ route('services') . '/#electrical-engineering'}}" class="hover:underline ">Electrical
+                                <a href="{{ route('services') . '/#electrical-engineering'}}" class=" border-bottom-on-hover-dark ">Electrical
                                     Engineering</a>
                             </li>
                             <li class="mb-4">
-                                <a href="{{ route('services') . '/#civil-engineering'}}" class="hover:underline">Civil
+                                <a href="{{ route('services') . '/#civil-engineering'}}" class=" border-bottom-on-hover-dark">Civil
                                     Engineering</a>
                             </li>
                             <li class="mb-4">
-                                <a href="{{ route('services') . '/#mechanical-engineering'}}" class="hover:underline">Mechanical
+                                <a href="{{ route('services') . '/#mechanical-engineering'}}" class=" border-bottom-on-hover-dark">Mechanical
                                     Engineering</a>
                             </li>
                             <li class="mb-4">
-                                <a href="{{ route('services') . '/#software-engineering'}}" class="hover:underline">Software
+                                <a href="{{ route('services') . '/#software-engineering'}}" class=" border-bottom-on-hover-dark">Software
                                     Engineering</a>
                             </li>
                             <li>
-                                <a href="{{ route('services') . '/#fire-safety-engineering'}}" class="hover:underline">Fire Safety Engineering</a>
+                                <a href="{{ route('services') . '/#fire-safety-engineering'}}" class=" border-bottom-on-hover-dark">Fire Safety Engineering</a>
                             </li>
                         </ul>
                     </div>
@@ -107,10 +107,10 @@ new class extends Component {
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Privacy Policy</a>
+                                <a href="#" class=" border-bottom-on-hover-dark">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                <a href="#" class=" border-bottom-on-hover-dark">Terms &amp; Conditions</a>
                             </li>
                         </ul>
                     </div>
@@ -120,7 +120,7 @@ new class extends Component {
             <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               {{ __('Copyright') }} &copy; {{ date('Y') }}
-              <a href="{{ route('home') }}" class="hover:underline">
+              <a href="{{ route('home') }}" class=" border-bottom-on-hover-dark">
                   {{ config('app.name') }}™.
               </a>
               All Rights Reserved.

@@ -15,13 +15,24 @@
                         </a>
                     </h2>
                 </div>
-                <a class="font-bold text-sm flex my-4 md:mb-8 items-center gap-2 transition-all hover:translate-x-1"
-                   href="">
-                    <span class="dark:text-gray-400">MORE ABOUT US</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                         stroke-width="1.5"
-                         stroke="currentColor" class="dark:text-gray-400 w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
+{{--                <a class="font-bold text-sm flex my-4 md:mb-8 items-center gap-2 transition-all hover:translate-x-1"--}}
+{{--                   href="">--}}
+{{--                    <span class="dark:text-gray-400">MORE ABOUT US</span>--}}
+{{--                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"--}}
+{{--                         stroke-width="1.5"--}}
+{{--                         stroke="currentColor" class="dark:text-gray-400 w-6 h-6">--}}
+{{--                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>--}}
+{{--                    </svg>--}}
+{{--                </a>--}}
+
+                <a href="{{ route('about-us') }}"
+                    class="sm:w-fit w-full group px-3.5 py-2 md:mb-8 rounded-lg transition-all justify-center items-center flex">
+                        <span
+                            class="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all">More About Us</span>
+                    <svg class="group-hover:translate-x-0.5 transition-all"
+                         xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M6.75265 4.49658L11.2528 8.99677L6.75 13.4996" stroke="#4F46E5" stroke-width="1.6"
+                              stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </a>
                 <div class="rounded-xl overflow-hidden hidden md:block">
