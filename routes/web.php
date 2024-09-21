@@ -26,6 +26,8 @@ Route::get('/projects', fn() => view('projects'))->name('projects');
 
 Route::get("/about-us", fn () => view('about-us'))->name('about-us');
 
+Route::get("/our-process", fn () => view('our-process'))->name('our-process');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');

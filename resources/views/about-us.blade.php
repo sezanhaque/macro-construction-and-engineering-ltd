@@ -137,7 +137,8 @@
                     <div class="data w-full">
                         <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us"
                              class="block lg:hidden mb-9 mx-auto object-cover">
-                        <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-slate-900 dark:text-gray-300 mb-9 max-lg:text-center">We've been Creative Since 2021</h2>
+                        <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-slate-900 dark:text-gray-300 mb-9 max-lg:text-center">
+                            We've been Creative Since 2021</h2>
                         <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                             Pagedone isn’t just a collection of components and guidelines; it's a philosophy. We go
                             beyond aesthetics, prioritizing accessibility, scalability, and usability. Every element,
@@ -301,7 +302,8 @@
     <section class="py-14 lg:py-24 ">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mb-24">
-                <h2 class="font-manrope text-4xl text-center font-bold text-slate-900 dark:text-gray-300 mb-6">Meet our soldier
+                <h2 class="font-manrope text-4xl text-center font-bold text-slate-900 dark:text-gray-300 mb-6">Meet our
+                    soldier
                 </h2>
                 <p class="text-lg text-gray-500 text-center">We provide all the advantages that can simplify all your
                     financial and banking support without any further issues</p>
@@ -313,19 +315,21 @@
                         <div
                             class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                             <div class=" w-full lg:w-48 h-64">
-                                <img src="https://pagedone.io/asset/uploads/1696238786.png" alt="image"
+                                <img src="{{ asset("/images/people/Chairman.jpg") }}" alt="image"
                                      class="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full">
                             </div>
                             <div class="text-center lg:text-left lg:max-w-xs flex-1">
                                 <div class="mb-5 pb-5 border-b border-solid border-gray-300">
-                                    <h6 class="text-lg text-slate-900 dark:text-gray-300 font-semibold mb-1">Harsh
-                                        Patel</h6>
-                                    <span class="text-sm text-gray-500 group-hover:text-indigo-600">Co-Founder &
-                                        CEO</span>
+                                    <h6 class="text-lg text-slate-900 dark:text-gray-300 font-semibold mb-1">Syed Badre
+                                        Alam</h6>
+                                    <span class="text-sm text-gray-500 group-hover:text-indigo-600">Chairman</span>
                                 </div>
                                 <p class="text-gray-500 leading-6 mb-7">
-                                    I am the co-founder of paged one, and we’ve pushed our limit so far to make it
-                                    successful.
+                                    Syed Badre Alam is experienced with global sourcing and distribution of products and
+                                    Business In the USA. He ensures the quality product sourcing through developing
+                                    sustainable business relations with the suppliers. His words have the power to
+                                    motivate people and make them do the unthinkable. He has experience in business
+                                    development and sourcing over 8 years.
                                 </p>
                                 <div class="flex items-center gap-4 justify-center lg:justify-start">
                                     <p
@@ -364,18 +368,23 @@
                         <div
                             class="group w-full flex-wrap flex items-center gap-8 flex-col md:flex-row transition-all duration-500 p-8 lg:flex-nowrap">
                             <div class=" w-full lg:w-48 h-64 max-lg:max-w-[204px] max-lg:mx-auto">
-                                <img src="https://pagedone.io/asset/uploads/1696238869.png" alt="image"
+                                <img src="{{ asset("/images/people/md.jpg") }}" alt="image"
                                      class="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full">
                             </div>
                             <div class="text-center lg:text-left lg:max-w-xs flex-1 flex flex-col justify-between">
                                 <div class="mb-5 pb-5 border-b border-solid border-gray-300">
-                                    <h6 class="text-lg text-slate-900 dark:text-gray-300 font-semibold mb-1">Alexa
-                                        Kimberly</h6>
-                                    <span class="text-sm text-gray-500 group-hover:text-indigo-600">Lead Designer</span>
+                                    <h6 class="text-lg text-slate-900 dark:text-gray-300 font-semibold mb-1">Md.
+                                        Touhidul Alam Nishar</h6>
+                                    <span
+                                        class="text-sm text-gray-500 group-hover:text-indigo-600">Managing Director</span>
                                 </div>
                                 <p class="text-gray-500 leading-6 mb-7">
-                                    I’ve been lead designer for pagedone since the beginning of it and enjoyed every
-                                    bit.
+                                    Md Touhdul Alam has truly succeeded in business management with a balancing act and
+                                    maintains the respect of team and superiors, also put on a good face for the company
+                                    in all of its external affairs and manage the work of the company. With his sound
+                                    technical expertise, combined with over 4 years of industrial experience and project
+                                    experience with Foreign EPC Company.
+
                                 </p>
                                 <div
                                     class="flex items-center gap-4 justify-center lg:justify-start max-sm:bottom-0 relative">
@@ -415,19 +424,20 @@
                         <div
                             class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                             <div class=" w-full lg:w-48 h-64">
-                                <img src="https://pagedone.io/asset/uploads/1696238786.png" alt="image"
+                                <img src="{{ asset("/images/people/sayedul-haque-sarker.JPG") }}" alt="image"
                                      class="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full">
                             </div>
                             <div class="text-center lg:text-left lg:max-w-xs flex-1">
                                 <div class="mb-5 pb-5 border-b border-solid border-gray-300">
-                                    <h6 class="text-lg text-slate-900 dark:text-gray-300 font-semibold mb-1">Harsh
-                                        Patel</h6>
-                                    <span class="text-sm text-gray-500 group-hover:text-indigo-600">Co-Founder &
-                                        CEO</span>
+                                    <h6 class="text-lg text-slate-900 dark:text-gray-300 font-semibold mb-1">Sayedul
+                                        Haque Sarker</h6>
+                                    <span class="text-sm text-gray-500 group-hover:text-indigo-600">Team Lead, Software Development</span>
                                 </div>
                                 <p class="text-gray-500 leading-6 mb-7">
-                                    I am the co founder of pagedone and we’ve pushed our limit so far to make it
-                                    successful.
+                                    In the dynamic realm of software development, Sayedul brings a wealth of expertise to guide our team towards new
+                                    horizons. With a profound understanding of the software development life-cycle and a
+                                    knack for harnessing cutting-edge technologies, Sayedul cultivates an environment
+                                    where creativity flourishes and challenges are met with enthusiasm.
                                 </p>
                                 <div class="flex items-center gap-4 justify-center lg:justify-start">
                                     <p

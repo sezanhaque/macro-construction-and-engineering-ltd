@@ -93,27 +93,17 @@ new class extends Component {
                         </a>
                     </li>
                     <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            Our Clients
-                        </a>
-                    </li>
-                    <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            Our Team
-                        </a>
-                    </li>
-                    <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
+                        <a href="{{ route('our-process') }}" class="border-bottom-on-hover-dark">
                             Our Process
                         </a>
                     </li>
-                </ul>
-                <ul class="mb-4 space-y-4 md:mb-0">
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
                             Our Blog
                         </a>
                     </li>
+                </ul>
+                <ul class="mb-4 space-y-4 md:mb-0">
                     <li class="flex">
                         <a href="#" class="border-bottom-on-hover-dark">
                             Testimonials
