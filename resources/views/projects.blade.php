@@ -2,7 +2,7 @@
 
     @section('title', 'Projects')
 
-    <section class="hero h-screen flex items-center justify-center text-center">
+    <section class="projects-hero-section h-screen flex items-center justify-center text-center">
         <div class="text-center px-6">
             <h1 class="text-5xl font-extrabold text-white">Our Projects</h1>
             <p class="text-xl text-gray-300 mt-4">Excellence from concept to completion, with modern engineering
@@ -233,4 +233,12 @@
         </div>
     </section>
 
+
+    @push("styles")
+        <style>
+            .projects-hero-section {
+                background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("{{ asset("/images/projects.jpg") }} ") center / cover no-repeat !important;
+            }
+        </style>
+    @endpush
 </x-app-layout>

@@ -2,7 +2,7 @@
 
     @section('title', 'Service')
 
-    <section class="hero h-screen flex items-center justify-center text-center">
+    <section class="service-hero-section h-screen flex items-center justify-center text-center">
         <div class="text-center px-6">
             <h1 class="text-5xl font-extrabold text-white">Our Services</h1>
             <p class="text-xl text-gray-300 mt-4">Excellence from concept to completion, with modern engineering
@@ -21,8 +21,9 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <!-- Electrical Engineering -->
-            <div id="electrical-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+            <div id="electrical-engineering"
+                 class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/electrical-eng.jpg") }}"
                      alt="Electrical Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Electrical Engineering</h3>
@@ -34,7 +35,7 @@
 
             <!-- Civil Engineering -->
             <div id="civil-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/civil-eng.jpg") }}"
                      alt="Civil Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Civil Engineering</h3>
@@ -45,8 +46,9 @@
             </div>
 
             <!-- Mechanical Engineering -->
-            <div id="mechanical-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+            <div id="mechanical-engineering"
+                 class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/mechanical-eng.jpg") }}"
                      alt="Mechanical Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Mechanical Engineering</h3>
@@ -57,8 +59,9 @@
             </div>
 
             <!-- Software Engineering -->
-            <div id="software-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+            <div id="software-engineering"
+                 class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/software-eng.jpg") }}"
                      alt="Software Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Software Engineering</h3>
@@ -68,21 +71,22 @@
                 </div>
             </div>
 
-            <!-- IT Development and Security System -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
-                     alt="IT Development and Security System">
-                <div class="p-8">
-                    <h3 class="text-2xl font-bold text-gray-800">IT Development and Security System</h3>
-                    <p class="mt-4 text-gray-600">Implementing cutting-edge IT solutions and security systems to protect
-                        your digital assets.</p>
-                    {{--                    <a href="#" class="mt-6 inline-block text-indigo-600 hover:text-indigo-800">Learn more &rarr;</a>--}}
-                </div>
-            </div>
+            <!-- Security System -->
+{{--            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">--}}
+{{--                <img class="w-full h-64 object-cover" src="{{ asset("/images/software-eng.jpg") }}"--}}
+{{--                     alt="IT Development and Security System">--}}
+{{--                <div class="p-8">--}}
+{{--                    <h3 class="text-2xl font-bold text-gray-800">IT Development and Security System</h3>--}}
+{{--                    <p class="mt-4 text-gray-600">Implementing cutting-edge IT solutions and security systems to protect--}}
+{{--                        your digital assets.</p>--}}
+{{--                    --}}{{--                    <a href="#" class="mt-6 inline-block text-indigo-600 hover:text-indigo-800">Learn more &rarr;</a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             <!-- Fire Safety Engineering -->
-            <div id="fire-safety-engineering" class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+            <div id="fire-safety-engineering"
+                 class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/fire-safety.jpg") }}"
                      alt="Fire Safety Engineering">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Fire Safety Engineering</h3>
@@ -93,24 +97,25 @@
             </div>
 
             <!-- Piping Network -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
-                     alt="Piping Network">
-                <div class="p-8">
-                    <h3 class="text-2xl font-bold text-gray-800">Piping Network</h3>
-                    <p class="mt-4 text-gray-600">Engineering and maintaining efficient piping networks for various
-                        industries.</p>
-                    {{--                    <a href="#" class="mt-6 inline-block text-indigo-600 hover:text-indigo-800">Learn more &rarr;</a>--}}
-                </div>
-            </div>
+            {{--            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">--}}
+            {{--                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"--}}
+            {{--                     alt="Piping Network">--}}
+            {{--                <div class="p-8">--}}
+            {{--                    <h3 class="text-2xl font-bold text-gray-800">Piping Network</h3>--}}
+            {{--                    <p class="mt-4 text-gray-600">Engineering and maintaining efficient piping networks for various--}}
+            {{--                        industries.</p>--}}
+            {{--                    --}}{{--                    <a href="#" class="mt-6 inline-block text-indigo-600 hover:text-indigo-800">Learn more &rarr;</a>--}}
+            {{--                </div>--}}
+            {{--            </div>--}}
 
             <!-- Fire Detection & Protection, HVAC, Water and Waste Treatment -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/water-system.jpg") }}"
                      alt="Fire Detection & Protection, HVAC, Water and Waste Treatment">
                 <div class="p-8">
-                    <h3 class="text-2xl font-bold text-gray-800">Fire Detection & Protection, HVAC, Water and Waste
-                        Treatment</h3>
+                    <h3 class="text-2xl font-bold text-gray-800">
+                        HVAC, Water and Waste Treatment
+                    </h3>
                     <p class="mt-4 text-gray-600">Comprehensive environmental and safety systems for optimal operational
                         efficiency.</p>
                     {{--                    <a href="#" class="mt-6 inline-block text-indigo-600 hover:text-indigo-800">Learn more &rarr;</a>--}}
@@ -119,7 +124,7 @@
 
             <!-- Energy Generation, Power Distribution -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-all card-hover">
-                <img class="w-full h-64 object-cover" src="https://picsum.photos/1280/800"
+                <img class="w-full h-64 object-cover" src="{{ asset("/images/energy.jpg") }}"
                      alt="Energy Generation, Power Distribution">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-800">Energy Generation, Power Distribution</h3>
@@ -195,5 +200,13 @@
                 Us</a>
         </div>
     </section>
+
+    @push("styles")
+        <style>
+            .service-hero-section {
+                background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("{{ asset("/images/Service.jpeg") }} ") center / cover no-repeat !important;
+            }
+        </style>
+    @endpush
 
 </x-app-layout>

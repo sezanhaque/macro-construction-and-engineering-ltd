@@ -16,10 +16,13 @@ return [
     |
     */
 
-    'name' => 'Macro Cons. and Eng. LTD.',
-    'email' => 'touhid@mceltd.com.bd',
+    'name' => 'Macro Construction and Engineering LTD.',
+    'email' => 'info@mceltd.com.bd',
+    'email_touhid' => 'touhid@mceltd.com.bd',
     'mobile' => '+880 178 094 2401',
     'mobile-href' => 'tel:+8801780942401',
+    "facebook_url" => 'https://www.facebook.com/people/Macro-Construction-And-Engineering-Limited/61557926853033/',
+    "linkedin_url" => 'https://www.linkedin.com/company/macro-construction-and-engineering-limited/',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +61,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://mceltd.com.bd'),
 
     'asset_url' => env('ASSET_URL'),
 

@@ -11,7 +11,7 @@
                         We started as a tiny team dedicated to
                         <a href="#"
                            class="mt-5 relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:before:bg-white dark:hover:text-gray-900 text-slate-900 dark:text-gray-100 sm:text-3xl hover:text-slate-100 before:hover:bg-slate-800">
-                            <span class="relative skew-y-3">Civil Aviation Sector</span>
+                            <span class="relative skew-y-3">Aviation Sector</span>
                         </a>
                     </h2>
                 </div>
@@ -52,15 +52,13 @@
                     </p>
                     <h3 class="mb-4 font-semibold text-xl text-gray-400">Our key areas of expertise include</h3>
                     <ul role="list" class="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-500">
-                        <li>ELECTRICAL ENGINEERING</li>
-                        <li>CIVIL ENGINEERING</li>
-                        <li>MECHANICAL ENGINEERING</li>
-                        <li>SOFTWARE ENGINEERING</li>
-                        <li>IT DEVELOPMENT AND SECURITY SYSTEM</li>
-                        <li>FIRE SAFETY ENGINEERING</li>
-                        <li>PIPING NETWORK</li>
-                        <li>FIRE DETECTION & PROTECTION, HVAC, WATER AND WASTE TREATMENT</li>
-                        <li>ENERGY GENERATION, POWER DISTRIBUTION</li>
+                        <li class="uppercase">AVIATION CONSULTANCY</li>
+                        <li class="uppercase">CIVIL ENGINEERING</li>
+                        <li class="uppercase">MECHANICAL ENGINEERING</li>
+                        <li class="uppercase">SOFTWARE ENGINEERING & IT DEVELOPMENT</li>
+                        <li class="uppercase">FIRE SAFETY ENGINEERING</li>
+                        <li class="uppercase">HVAC, Water and Waste Treatment</li>
+                        <li class="uppercase">ENERGY GENERATION, POWER DISTRIBUTION</li>
                     </ul>
                 </div>
             </div>

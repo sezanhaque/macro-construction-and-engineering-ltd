@@ -11,7 +11,7 @@ new class extends Component {
 
 <div>
     <nav
-        class="bg-white top-0 lg:top-10 drop-shadow-xl border-gray-200 w-full dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 fixed top-0 z-20 transition-all duration-300">
+            class="bg-white top-0 lg:top-10 drop-shadow-xl border-gray-200 w-full dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 fixed top-0 z-20 transition-all duration-300">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
             <a href="{{ route('home') }}" class="flex items-center">
                 @if(storage_exists('images/logo.png'))
@@ -74,8 +74,8 @@ new class extends Component {
                             <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
                                  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                                    fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                        fill-rule="evenodd" clip-rule="evenodd"></path>
                             </svg>
                         </button>
                     </li>
@@ -85,8 +85,8 @@ new class extends Component {
         <div id="mega-menu-full-image-dropdown"
              class="mt-1 bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600 hidden">
             <div
-                class="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
-                <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
+                    class="grid grid-cols-3 gap-4 max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
+                <ul class="col-span-2 md:grid-cols-1 mb-4 space-y-4 md:mb-0" aria-labelledby="mega-menu-full-image-button">
                     <li class="flex">
                         <a href="{{ route('about-us') }}" class="border-bottom-on-hover-dark">
                             About Us
@@ -98,32 +98,33 @@ new class extends Component {
                         </a>
                     </li>
                     <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            Our Blog
+                        <a href="{{ route('brochure') }}" target="_blank" class="border-bottom-on-hover-dark">
+                            Our Brochure
                         </a>
                     </li>
                 </ul>
-                <ul class="mb-4 space-y-4 md:mb-0">
-                    <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            Testimonials
-                        </a>
-                    </li>
-                    <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            Terms & Conditions
-                        </a>
-                    </li>
-                    <li class="flex">
-                        <a href="#" class="border-bottom-on-hover-dark">
-                            License
-                        </a>
-                    </li>
-                </ul>
+                {{--                <ul class="mb-4 space-y-4 md:mb-0">--}}
+                {{--                    <li class="flex">--}}
+                {{--                        <a href="#" class="border-bottom-on-hover-dark">--}}
+                {{--                            Testimonials--}}
+                {{--                        </a>--}}
+                {{--                    </li>--}}
+                {{--                    <li class="flex">--}}
+                {{--                        <a href="#" class="border-bottom-on-hover-dark">--}}
+                {{--                            Terms & Conditions--}}
+                {{--                        </a>--}}
+                {{--                    </li>--}}
+                {{--                    <li class="flex">--}}
+                {{--                        <a href="#" class="border-bottom-on-hover-dark">--}}
+                {{--                            License--}}
+                {{--                        </a>--}}
+                {{--                    </li>--}}
+                {{--                </ul>--}}
                 <a href="{{ route("contact-us") }}"
-                   class="p-8 text-left bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light dark:hover:bg-blend-darken"
+                   class="col-span-3 md:col-span-1 p-8 text-left bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light dark:hover:bg-blend-darken"
                    style="background-image: url({{ asset('/images/dashboard-overview.png') }})">
-                    <p class="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">Stay Connected with us.</p>
+                    <p class="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">Stay Connected with
+                        us.</p>
                     <button type="button"
                             class="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Get started

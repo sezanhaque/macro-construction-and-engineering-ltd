@@ -24,7 +24,7 @@ class ContactForm extends Component
         $this->validate();
 
         // Send email
-        Mail::to('your-email@example.com')->send(new ContactFormMail($this->name, $this->email, $this->message));
+        Mail::to($this->email)->send(new ContactFormMail($this->name, $this->email, $this->message));
 
         session()->flash('success', 'Your message has been sent successfully.');
 

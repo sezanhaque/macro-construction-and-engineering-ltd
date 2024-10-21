@@ -24,6 +24,7 @@
     <x-home.company-experience></x-home.company-experience>
     <x-home.partner></x-home.partner>
     <x-home.standard-we-follow></x-home.standard-we-follow>
+    <x-home.aviation-partner />
     <x-home.about-us></x-home.about-us>
     <x-home.features></x-home.features>
     <x-home.our-clients></x-home.our-clients>

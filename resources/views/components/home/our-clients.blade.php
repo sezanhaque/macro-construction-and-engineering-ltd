@@ -15,12 +15,10 @@
                     <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
                          src="{{ asset("/images/company-logos/AMG.svg") }}" width="250" height="200">
                     <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
-                         src="{{ asset("/images/company-logos/Biman-Bangladesh-logo.svg") }}" width="250" height="200">
+                         src="{{ asset("/images/company-logos/aci.png") }}" width="250" height="200">
                 </div>
                 <div
                     class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
-                    <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
-                         src="{{ asset("/images/company-logos/aci.png") }}" width="250" height="200">
                     <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
                          src="{{ asset("/images/company-logos/sigma.png") }}" width="250" height="200">
                     <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
@@ -47,8 +45,6 @@
                          src="{{ asset("/images/company-logos/BAF.png") }}" width="250" height="200">
                     <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
                          src="{{ asset("/images/company-logos/zilla-porishod.png") }}" width="250" height="200">
-                    <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
-                         src="{{ asset("/images/company-logos/crcc-cecc.png") }}" width="250" height="200">
                 </div>
             </div>
         </div>

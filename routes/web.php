@@ -2,6 +2,7 @@
 
 use App\Livewire\ContactForm;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,9 +25,13 @@ Route::get('/services', fn() => view('service'))->name('services');
 
 Route::get('/projects', fn() => view('projects'))->name('projects');
 
-Route::get("/about-us", fn () => view('about-us'))->name('about-us');
+Route::get("/about-us", fn() => view('about-us'))->name('about-us');
 
-Route::get("/our-process", fn () => view('our-process'))->name('our-process');
+Route::get("/our-process", fn() => view('our-process'))->name('our-process');
+
+Route::get('/get-brochure', fn() => Storage::disk('public')->download(
+    "/uploads/Brochure.pdf"
+))->name("brochure");
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])

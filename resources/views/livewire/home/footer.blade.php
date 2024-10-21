@@ -33,11 +33,6 @@ new class extends Component {
                             <br>
                             Uttara, Dhaka- 1230, Bangladesh
                         </p>
-                        <p class="text-gray-500 dark:text-gray-400 mb-2">
-                            Trade License No.: TRAD/DNCC/138548/2022
-                            <br>
-                            TIN No.: 386980922062
-                        </p>
                         <div class="flex text-gray-500 dark:text-gray-400 ">
                             <svg class="w-4 h-4 self-center mr-2" aria-hidden="true"
                                  xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 20">
@@ -118,15 +113,15 @@ new class extends Component {
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
             <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span class="flex text-sm text-gray-500 sm:text-center dark:text-gray-400">
               {{ __('Copyright') }} &copy; {{ date('Y') }}
-              <a href="{{ route('home') }}" class=" border-bottom-on-hover-dark">
+              <a href="{{ route('home') }}" class="mx-1 border-bottom-on-hover-dark">
                   {{ config('app.name') }}™.
               </a>
               All Rights Reserved.
           </span>
-                <div class="flex mt-4 sm:justify-center sm:mt-0">
-                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <div class="flex justify-center mt-4 sm:mt-0">
+                    <a href="{{ config('app.facebook_url') }}" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                              viewBox="0 0 8 19">
                             <path fill-rule="evenodd"
@@ -135,15 +130,7 @@ new class extends Component {
                         </svg>
                         <span class="sr-only">Facebook page</span>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                        <svg class="w-4 h-4" aria-hidden="true"
-                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                            <path fill="currentColor"
-                                  d="M12.186 8.672 18.743.947h-2.927l-5.005 5.9-4.44-5.9H0l7.434 9.876-6.986 8.23h2.927l5.434-6.4 4.82 6.4H20L12.186 8.672Zm-2.267 2.671L8.544 9.515 3.2 2.42h2.2l4.312 5.719 1.375 1.828 5.731 7.613h-2.2l-4.699-6.237Z"/>
-                        </svg>
-                        <span class="sr-only">Twitter page</span>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <a href="{{ config('app.linkedin_url') }}" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5 mr-2">
                         <svg class="w-4 h-4" aria-hidden="true"
                              xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 15 15">
                             <path fill-rule="evenodd"
@@ -153,6 +140,14 @@ new class extends Component {
                         </svg>
                         <span class="sr-only">LinkedIn page</span>
                     </a>
+{{--                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">--}}
+{{--                        <svg class="w-4 h-4" aria-hidden="true"--}}
+{{--                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">--}}
+{{--                            <path fill="currentColor"--}}
+{{--                                  d="M12.186 8.672 18.743.947h-2.927l-5.005 5.9-4.44-5.9H0l7.434 9.876-6.986 8.23h2.927l5.434-6.4 4.82 6.4H20L12.186 8.672Zm-2.267 2.671L8.544 9.515 3.2 2.42h2.2l4.312 5.719 1.375 1.828 5.731 7.613h-2.2l-4.699-6.237Z"/>--}}
+{{--                        </svg>--}}
+{{--                        <span class="sr-only">Twitter page</span>--}}
+{{--                    </a>--}}
                 </div>
             </div>
         </div>

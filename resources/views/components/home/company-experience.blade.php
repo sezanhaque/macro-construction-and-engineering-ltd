@@ -205,8 +205,8 @@
                 <h2>
                     <span
                         class="flex tabular-nums text-slate-900 dark:text-gray-300 text-5xl font-extrabold mb-2 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
-                        x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:30]'">
-                        <span class="supports-[counter-set]:sr-only">30</span>+
+                        x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:50]'">
+                        <span class="supports-[counter-set]:sr-only">50</span>+
                     </span>
                     <span
                         class="text-2xl inline-flex font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
@@ -353,8 +353,8 @@
                 <h2>
             <span
                 class="flex tabular-nums text-slate-900 dark:text-gray-300 text-5xl font-extrabold mb-2 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
-                x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:45]'">
-                <span class="supports-[counter-set]:sr-only">45</span>+
+                x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:50]'">
+                <span class="supports-[counter-set]:sr-only">50</span>+
             </span>
                     <span
                         class="text-2xl inline-flex font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Project Completed</span>

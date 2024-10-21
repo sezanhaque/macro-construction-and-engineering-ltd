@@ -66,8 +66,8 @@
 
             <blockquote class="p-4 my-4 border-s-4 border-blue-300 bg-gray-50 dark:border-blue-500 dark:bg-gray-800">
                 <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
-                    You'll lose a few here and there, but every time you will learn something of your opposition, and of
-                    yourself.
+                    When engineers and quantity surveyors discuss aesthetics and architects study what cranes do, we are
+                    on the right road.
                 </p>
             </blockquote>
         </div>
@@ -95,9 +95,8 @@
             </div>
 
             <blockquote class="p-4 my-4 border-s-4 border-blue-300 bg-gray-50 dark:border-blue-500 dark:bg-gray-800">
-                <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">You'll lose a few
-                    here and there, but every time you will learn something of your opposition, and of
-                    yourself.</p>
+                <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">Nothing can be of
+                    great worth or holy which is the work of builders and mechanics.</p>
             </blockquote>
         </div>
     </section>
