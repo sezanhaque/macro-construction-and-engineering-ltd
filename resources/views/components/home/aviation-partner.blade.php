@@ -25,6 +25,7 @@
                     <img src="{{ asset("/images/company-logos/reco.png") }}" width="200" height="200">
                     <img src="{{ asset("/images/company-logos/1.png") }}" width="200" height="200">
                     <img src="{{ asset("/images/company-logos/zebra-technologies-logo.svg") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/novo-quad.jpg") }}" width="200" height="200">
                 </div>
             </div>
         </div>

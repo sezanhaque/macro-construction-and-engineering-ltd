@@ -18,21 +18,21 @@
             <div
                 class="w-[85%] lg:w-full transform rounded-lg bg-white rotate-3 scale-110 translate-x-10 shadow-2xl -ml-4 -mt-44 p-6 lg:p-8 space-y-2">
                 <div class="grid grid-cols-5 sm:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto items-center">
-                    <img src="{{ asset("/images/company-logos/Bosch.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/cambium.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/cisco.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/commscope.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/dahua.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/Fortinet.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/grandstream.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/hikvision.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/huawei.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/Juniper.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/Mikrotik.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/rosenberger.png") }}" width="200" height="200">
-                    <img src="{{ asset("/images/company-logos/toten.png") }}" width="200" height="200">
                     <img src="{{ asset("/images/company-logos/zebra.png") }}" width="200" height="200">
                     <img src="{{ asset("/images/company-logos/zkteco.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/dahua.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/hikvision.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/Bosch.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/cisco.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/huawei.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/Mikrotik.png") }}" width="200" height="200">
+{{--                    <img src="{{ asset("/images/company-logos/cambium.png") }}" width="200" height="200">--}}
+{{--                    <img src="{{ asset("/images/company-logos/commscope.png") }}" width="200" height="200">--}}
+{{--                    <img src="{{ asset("/images/company-logos/Fortinet.png") }}" width="200" height="200">--}}
+{{--                    <img src="{{ asset("/images/company-logos/grandstream.png") }}" width="200" height="200">--}}
+{{--                    <img src="{{ asset("/images/company-logos/Juniper.png") }}" width="200" height="200">--}}
+{{--                    <img src="{{ asset("/images/company-logos/rosenberger.png") }}" width="200" height="200">--}}
+{{--                    <img src="{{ asset("/images/company-logos/toten.png") }}" width="200" height="200">--}}
                 </div>
             </div>
         </div>

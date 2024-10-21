@@ -9,24 +9,23 @@
                     <span class="block mb-5 font-bold group-hover:text-orange-300">HERE WE ARE</span>
                     <h2 class="text-white font-bold text-xl md:text-2xl">
                         We started as a tiny team dedicated to
-                        <a href="#"
-                           class="mt-5 relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:before:bg-white dark:hover:text-gray-900 text-slate-900 dark:text-gray-100 sm:text-3xl hover:text-slate-100 before:hover:bg-slate-800">
+                        <a class="mt-5 hover:cursor-pointer relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 dark:hover:before:bg-white dark:hover:text-gray-900 text-slate-900 dark:text-gray-100 sm:text-3xl hover:text-slate-100 before:hover:bg-slate-800">
                             <span class="relative skew-y-3">Aviation Sector</span>
                         </a>
                     </h2>
                 </div>
-{{--                <a class="font-bold text-sm flex my-4 md:mb-8 items-center gap-2 transition-all hover:translate-x-1"--}}
-{{--                   href="">--}}
-{{--                    <span class="dark:text-gray-400">MORE ABOUT US</span>--}}
-{{--                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"--}}
-{{--                         stroke-width="1.5"--}}
-{{--                         stroke="currentColor" class="dark:text-gray-400 w-6 h-6">--}}
-{{--                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>--}}
-{{--                    </svg>--}}
-{{--                </a>--}}
+                {{--                <a class="font-bold text-sm flex my-4 md:mb-8 items-center gap-2 transition-all hover:translate-x-1"--}}
+                {{--                   href="">--}}
+                {{--                    <span class="dark:text-gray-400">MORE ABOUT US</span>--}}
+                {{--                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"--}}
+                {{--                         stroke-width="1.5"--}}
+                {{--                         stroke="currentColor" class="dark:text-gray-400 w-6 h-6">--}}
+                {{--                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>--}}
+                {{--                    </svg>--}}
+                {{--                </a>--}}
 
                 <a href="{{ route('about-us') }}"
-                    class="sm:w-fit w-full group px-3.5 py-2 md:mb-8 rounded-lg transition-all justify-center items-center flex">
+                   class="sm:w-fit w-full group px-3.5 py-2 md:mb-8 rounded-lg transition-all justify-center items-center flex">
                         <span
                             class="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all">More About Us</span>
                     <svg class="group-hover:translate-x-0.5 transition-all"
