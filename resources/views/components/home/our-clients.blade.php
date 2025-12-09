@@ -25,6 +25,8 @@
                          src="{{ asset("/images/company-logos/posco.png") }}" width="250" height="200">
                     <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
                          src="{{ asset("/images/company-logos/HDC.svg") }}" width="250" height="200">
+                    <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer" alt=""
+                         src="{{ asset("/images/company-logos/BCIC.png") }}" width="250" height="200">
                 </div>
                 <div
                     class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
