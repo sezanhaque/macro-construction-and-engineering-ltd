@@ -26,6 +26,8 @@
                     <img src="{{ asset("/images/company-logos/cisco.png") }}" width="200" height="200">
                     <img src="{{ asset("/images/company-logos/huawei.png") }}" width="200" height="200">
                     <img src="{{ asset("/images/company-logos/Mikrotik.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/serengeti.png") }}" width="200" height="200">
+                    <img src="{{ asset("/images/company-logos/ansart.png") }}" width="200" height="200">
 {{--                    <img src="{{ asset("/images/company-logos/cambium.png") }}" width="200" height="200">--}}
 {{--                    <img src="{{ asset("/images/company-logos/commscope.png") }}" width="200" height="200">--}}
 {{--                    <img src="{{ asset("/images/company-logos/Fortinet.png") }}" width="200" height="200">--}}

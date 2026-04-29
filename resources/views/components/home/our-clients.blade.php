@@ -51,11 +51,7 @@
                               height="200">
                     </div>
                     <div
-                         class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
-                         <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer"
-                              alt="" src="{{ asset("/images/company-logos/serengeti.png") }}" width="250" height="200">
-                         <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer"
-                              alt="" src="{{ asset("/images/company-logos/ansart.png") }}" width="250" height="200">
+                         class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-center">
                          <img class="transition-all filter grayscale hover:grayscale-0 duration-300 cursor-pointer"
                               alt="" src="{{ asset("/images/company-logos/ccecc.png") }}" width="250" height="200">
                     </div>
